@@ -1,0 +1,23 @@
+.logo {
+  font-family: $font-logo;
+  font-size: 26px;
+  line-height: 1.19;
+  font-weight: 700;
+  color: #212121;
+
+  &--header {
+    padding: 18px 0;
+    @media screen and (min-width: 768px) {
+      margin-right: 88px;
+      padding: 24px 0;
+    }
+
+    @media screen and (min-width: 1200px) {
+      margin-right: 93px;
+    }
+  }
+
+  &--footer {
+    color: #fff;
+  }
+}
